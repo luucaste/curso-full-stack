@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Seguro No Pagamos Cooperativa</title>
+</head>
+<body>
+    <header class="header--container">
+        <div class="header--container__text">
+            <h1 class="header__text">Seguro No Pagamos Cooperativa</h1>
+        </div>
+    </header>
+    <div class="page">
+        <div class="box--container" id="boxContainer">
+            <div class="personalDates--container">
+                <h2 class="h2--title">Datos personales</h2>
+                <form class="form--container" action="">
+                    <div class="form--container__dates">
+                        <label class="form--label__name" for="">Nombre</label>
+                        <input class="form--input__name" type="text" required>
+                    </div>
+                    <div class="form--container__dates">
+                       <label class="form--label__name" for="">Apellido</label>
+                        <input class="form--input__name" type="text" required>  
+                    </div>
+                    <div class="form--container__dates">
+                        <label class="form--label__name" for="">DNI</label>
+                        <input class="form--input__name" type="text" required>   
+                   </div>
+                   <div class="form--container__dates">
+                        <label class="form--label__name" for="">Email</label>
+                        <input class="form--input__name" type="text" required> 
+                   </div>
+                   <div class="form--container__dates">
+                        <label class="form--label__name" for="">Teléfono</label>
+                        <input class="form--input__name" type="text" required> 
+                    </div>
+                </form>
+            </div>
+            <div class="paymentOptions--container">
+                <h2 class="h2--title">Tipo de seguro</h2>
+                <div class="paymentOptions--container__btn">
+                    <a class="paymentOptions__btn" href="#" id="basicPrice">Básico</a>
+                    <a class="paymentOptions__btn" href="#" id="intermediatePrice">Intermedio</a>
+                    <a class="paymentOptions__btn" href="#" id="premiumPrice">Premium</a>                    
+                </div>
+                <div class="paymentOptions--container__price" id="paymentOptionsContainer"></div>
+                <div class="submitBtn--container">
+                    <a class="submitBtn" id="submitBtn">Enviar</a>
+                </div>
+            </div>
+        </div>
+        <div id="submitSuccessContainer"></div>
+    </div>
+</body>
+<script src="js/scripts.js"></script>
+</html>

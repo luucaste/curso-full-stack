@@ -1,0 +1,31 @@
+.pageTitle--container {
+    display: flex;
+    justify-content: center;
+}
+
+.pageTitle--text {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.pageBtn--container {
+    display: flex;
+    justify-content: center;
+}
+
+.pageBtn--button {
+    background-color:cadetblue;
+    color: white;
+    border: unset;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.pageBtn--button:hover {
+    background-color: #75acad;;
+    color: white;
+}
